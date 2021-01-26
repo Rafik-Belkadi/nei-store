@@ -8,7 +8,7 @@ export default function Navbar() {
         <div className="nav">
 
             <ul className="left">
-                <li className="logo"><img src="/logo.png" height="100" width="100"/> PhotoMania</li>
+                <li className="logo"><img src="/logo.png" height="100" width="100" /> PhotoMania</li>
                 <li className="nav-item selected">Accueil</li>
                 <li className="nav-item">A propos</li>
                 <li className="nav-item">Nos Tarifs</li>
@@ -16,7 +16,7 @@ export default function Navbar() {
             </ul>
             <div className="right">
                 <SearchBarView />
-                <button className="btn green upload"><IoIosAdd style={{ color: "#ffffff", fontSize: 20, padding: 0, margin: 0}} /> Upload</button>
+                <button className="btn green upload"><IoIosAdd style={{ color: "#ffffff", fontSize: 20, padding: 0, margin: 0 }} /> Upload</button>
                 <button className="btn accent cart"><AiOutlineShoppingCart style={{ color: "#ffffff", fontSize: 20, padding: 0, margin: "0 5 0 0" }} />Panier</button>
                 <div className="profile">R</div>
             </div>

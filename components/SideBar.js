@@ -52,7 +52,7 @@ export default function SideBar() {
                         Police d'écriture
                     </div>
                     <select onChange={(e) => setFont(e.target.value)} className="dimension" name="dimension" >
-                        {fonts.map(el => 
+                        {fonts.map(el =>
                             <option value={el} >{el}</option>
                         )}
                     </select>
