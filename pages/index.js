@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import ImageView from '../components/ImageView'
 import Navbar from '../components/Navbar'
 import SideBar from '../components/SideBar'
@@ -15,12 +14,6 @@ export default function Home() {
 
   return (
     <div className={styles.container}>
-      <Head>
-        <title>PhotoMania Store</title>
-        <link rel="icon" href="/favicon.ico" />
-        <script src="https://widget.cloudinary.com/v2.0/global/all.js" type="text/javascript">
-        </script>
-      </Head>
       <Navbar />
       <div className="main-content">
         <imageContext.Provider value={{ filter, setFilter, caption, setCaption, font, setFont, taille, setTaille }} >

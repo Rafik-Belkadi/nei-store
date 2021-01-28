@@ -4,11 +4,11 @@ import { imageContext } from "../contexts/contexts"
 
 
 export default function ImageView() {
-    const { caption, font } = useContext(imageContext)
+    const { caption, font, filter, setFilter } = useContext(imageContext)
 
     const [selectedImage, setSelectedImage] = useState("");
     const [selectedImageObject, setSelectedImageObject] = useState(null);
-    const [filter, setFilter] = useState("");
+    
 
     const filters_names = [
         "normal",
